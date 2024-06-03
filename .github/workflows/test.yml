@@ -26,6 +26,6 @@ jobs:
         uses: 'google-github-actions/auth@v2'
         with:
      #     token_format: 'access_token'
-          workload_identity_provider:  'projects/906266878830/locations/global/workloadIdentityPools/xyz-pool/providers/xyz-provider'
+      #    workload_identity_provider:  'projects/906266878830/locations/global/workloadIdentityPools/xyz-pool/providers/xyz-provider'
           service_account: 'xyz-sa@shivanvitha.iam.gserviceaccount.com'
  
